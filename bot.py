@@ -34,7 +34,7 @@ def talk_to_me(update, context):
 
 
 def main():
-        mybot = Updater(settings.API_KEY)
+        mybot = Updater(settings.API_KEY,)
 
         logging.info('Бот запускается')
 
